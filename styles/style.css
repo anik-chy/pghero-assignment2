@@ -277,6 +277,64 @@ main {
 .sponsor-logo img{
     width: 90%;
 }
+
+/* subscription property */
+.subscribe-container{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+.subscribe-box{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.subscribe-box img{
+    width: 40%;
+}
+.subs-pre-title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #727272;
+}
+.subs-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #131313;
+}
+.subs-post-title{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.subs-forms{
+    display: flex;
+    gap: 10px;
+}
+.subs-forms input[type="email"]{
+    padding: 12px;
+    border: none;
+    background-color: #ff8f0e60;
+    border-radius: 20px;
+}
+.subs-forms input[type="button"]{
+    padding: 12px;
+    background: #ff900e;
+    border-radius: 20px;
+    border: none;
+
+    font-family: "Work Sans";
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+}
 @media screen and (max-width: 576px) {
     .nav-container {
         display: flex;
