@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Work Sans";
+    font-style: normal;
+}
+
+main {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* common properties */
+.primary-title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #131313;
+}
+
+.primary-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.primary-button {
+    width: 180px;
+    height: 64px;
+    background: #ff900e;
+    border-radius: 8px;
+    border: none;
+
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* header styles including nav bar */
+.header-container {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 75px 100px;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-container .menu-items a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #424242;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    width: 45%;
+}
+
+.banner-description {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 90%;
+    border-radius: 8px;
+    margin-bottom: 2.8rem;
+}
+
+/* quick features section properties */
+.quick-features-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.quick-features-item-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.quick-features-item-photo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.quick-features-item-description {
+    width: 537px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* features section properties */
+.features-container {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    align-items: center;
+}
+
+.features-container-left {
+    width: 586px;
+}
+
+.feature-title {
+    font-size: 45px;
+    border-left: 5px solid #ff900e;
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+.feature-card {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.feature-card-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.feature-card-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.features-container-right {
+    display: inline-block;
+    position: relative;
+}
+
+.features-container-right button {
+    position: absolute;
+    bottom: -3em;
+    left: -3em;
+    background: #ff900e;
+    border-radius: 8px;
+    border: none;
+
+    font-family: "Work Sans";
+    text-align: center;
+    color: #ffffff;
+    padding: 45px;
+}
+#btn-large-text{
+    font-weight: 700; 
+    font-size: 65px;
+}
+#btn-small-text{
+    font-weight: 500; 
+    font-size: 25px;
+}
+.features-container-right img {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 24px 24px 23px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-title {
+        width: 100%;
+    }
+
+    /* quick features section properties */
+    .quick-features-container {
+        flex-direction: column;
+    }
+
+    .quick-features-item-description {
+        width: 90%;
+    }
+
+    /* features section properties */
+    .features-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-container-left {
+        width: 90%;
+    }
+
+    .features-container-right {
+        text-align: center;
+    }
+    .features-container-right button {
+        bottom: -1em;
+        left: 1em;
+        padding: 20px;
+    }
+    #btn-large-text{
+        font-weight: 700; 
+        font-size: 2rem;
+    }
+    #btn-small-text{
+        font-weight: 500; 
+        font-size: 1rem;
+    }
+    
+}
