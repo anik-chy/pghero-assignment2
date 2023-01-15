@@ -14,3 +14,14 @@ This project is a clone of the following design.
 
 ## Live Website Link
 [Click here](https://anik-chy.github.io/pghero-assignment2/)
+
+## Helpful Resources
+- [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+
+- [CSS Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+- [CSS Units](https://www.w3schools.com/cssref/css_units.php)
+
+- [Button over an image](https://emergestudio.design/how-to-put-a-button-on-top-of-an-image/)
+
+- [Animated Button](https://www.w3schools.com/howto/howto_css_animate_buttons.asp)
