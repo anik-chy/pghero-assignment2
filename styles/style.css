@@ -19,6 +19,11 @@ main {
     background-color: white;
 }
 
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
 /* common properties */
 .primary-title {
     font-weight: 700;
@@ -267,64 +272,75 @@ main {
     text-align: center;
     margin-bottom: 50px;
 }
-.sponsors-images{
+
+.sponsors-images {
     display: flex;
     gap: 50px;
 }
-.sponsor-logo{
+
+.sponsor-logo {
     filter: grayscale(100%);
 }
-.sponsor-logo img{
+
+.sponsor-logo img {
     width: 90%;
 }
 
 /* subscription property */
-.subscribe-container{
+.subscribe-container {
     display: flex;
     justify-content: center;
-    margin: 80px;
+    margin: 120px;
 }
-.subscribe-box{
+
+.subscribe-box {
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
     background: #FFFFFF;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
-.subscribe-box img{
+
+.subscribe-box img {
     width: 40%;
 }
-.subs-pre-title{
+
+.subs-pre-title {
     font-weight: 600;
     font-size: 1.5rem;
     color: #727272;
 }
-.subs-title{
+
+.subs-title {
     font-weight: 700;
     font-size: 3rem;
     color: #131313;
 }
-.subs-post-title{
+
+.subs-post-title {
     font-weight: 500;
     font-size: 0.8rem;
     color: #131313;
     margin-bottom: 20px;
 }
-.subs-forms{
+
+.subs-forms {
     display: flex;
     gap: 10px;
 }
-.subs-forms input[type="email"]{
+
+.subs-forms input[type="email"] {
     padding: 12px;
     border: none;
     background-color: #ff8f0e60;
     border-radius: 20px;
 }
-.subs-forms input[type="button"]{
+
+.subs-forms input[type="button"] {
     padding: 12px;
     background: #ff900e;
     border-radius: 20px;
@@ -335,6 +351,15 @@ main {
     text-align: center;
     color: #ffffff;
 }
+
+.footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 40px;
+}
+
 @media screen and (max-width: 576px) {
     .nav-container {
         display: flex;
@@ -407,11 +432,13 @@ main {
         align-items: center;
         gap: 50px
     }
+
     /* sponsors properties */
     .sponsors-description {
         width: 90%;
     }
-    .sponsors-images{
+
+    .sponsors-images {
         display: flex;
         flex-direction: column;
         gap: 50px;
